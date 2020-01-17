@@ -1,0 +1,20 @@
+{
+  "name": "md-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "doc-local-dev": "./bin/doc-local-dev.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack-chain": "^6.3.0",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
